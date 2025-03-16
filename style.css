@@ -1,0 +1,186 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: hsl(0, 0%, 96%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: hsl(0, 0%, 20%);
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+
+/* Home section */
+
+#home{
+    height: 733px;
+}
+
+.nav{
+    text-decoration: none;
+    font-size: 20px; 
+    color: hsl(0, 0%, 20%);
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    padding: 30px; 
+    border-radius: 16px; 
+}
+
+.nav:hover{
+    color: hsl(0, 0%, 15%);
+    transform: scale(1.05);
+    background-color: hsl(0, 0%, 93%);   
+}
+
+.logo{
+    font-family: 'Homemade Apple';
+    text-align: end;
+    padding-right: 134px;
+    padding-top: 10px;
+    font-size: 38px; 
+    float: right;
+    transition: all 0.2s ease-in-out; 
+}
+
+.logo:hover{
+    transform: scale(1.06);
+}
+
+#logo{
+    text-decoration: none;
+    font-size: 38px;
+    color: hsl(0, 0%, 20%);
+    display: inline-block;
+}
+
+.nav-links{
+    width: 100%;
+    margin-top: 0px;
+    background-color: hsl(0, 0%, 96%);
+    display: flex;
+    padding: 10px; 
+    size: auto;
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    position: fixed;
+    box-shadow: 0px 4px 10px hsl(0, 0%, 85%);
+    z-index: 1000;
+}
+
+.navtab{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 4px; 
+    padding-right: 4px;
+    list-style-type: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.name{
+    flex-shrink: 0;
+    padding-top: 324px;
+    padding-left: 249px;
+    font-size: 33px;
+    white-space: nowrap;
+}
+
+.more{
+    padding-left: 249px; 
+}
+
+#more_button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px !important; 
+    color: hsl(0, 0%, 96%);
+    background-color: hsl(219, 100%, 70%);
+    padding: 20px 40px; 
+    border-radius: 20px; 
+    border: 0;
+    max-width: 784px; 
+    font-size: 60px; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#more_button:hover{
+    box-shadow: 0px 0px 35px hsl(219, 100%, 70%);
+    transform: scale(1.04);
+}
+
+.picture {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+#myimg {
+    width: 640px; 
+    max-width: 100%;
+    border-radius: 20px;
+    position: absolute;
+    right: 192px; 
+    top: 152px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+    object-fit: cover; 
+    display: flex;
+    flex-shrink: 0;
+}
+
+
+/* About me section */
+
+#about{
+    background-color: hsl(0, 0%, 90%);
+    margin-top: 211px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: hsl(0, 0%, 20%);
+    height: 917px; 
+}
+
+.abouttext{
+    font-size: 33px; 
+    padding-top: 400px;
+    padding-right: 416px;
+    justify-items: end;
+    z-index: 2;
+    position: absolute;
+    left: 1255px; 
+}
+
+.about_details{
+    max-width: 784px;
+    font-size: 20px; 
+    top: 1450px; 
+    padding-left: 992px; 
+    z-index: 2;
+    position: absolute;
+}
+
+#about_img{
+    width: 576px; 
+    display: block;
+    position: absolute;
+    top: 1060px;
+    left: 154px; 
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+#about_img:hover{
+    transform: scale(1.05);
+}
+
+#text_box{
+    background-color: hsl(0, 0%, 96%);
+    padding: 200px;
+    padding-left: 768px; 
+    max-width: 768px;
+    position: absolute;
+    right: 46px;
+    top: 1250px; 
+    z-index: 1;
+}
